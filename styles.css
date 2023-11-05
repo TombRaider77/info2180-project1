@@ -1,0 +1,228 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;padding:0;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+
+h1{
+    float: left;
+    background-color:white;
+    font-size: 18px;
+    padding: 21px 138px;
+}
+
+
+ul {
+    
+    width: 10%;
+    display: flex;
+    margin: auto;
+    padding: 30px 0; /*changed the spacing between the texts*/
+    align-items: center;  
+    justify-content: space-between;
+    font-size: 18px;
+
+  }
+
+li{
+    list-style: none;
+    display: inline-block;
+   padding:0px 8px;
+    font-size: 18px;
+
+  }
+
+a {
+    color: #6b7280;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+a:hover{
+    color:#5A67D8;
+}
+
+.newsletter h3{
+    text-align: center;
+}
+
+.newsletter .container{
+    width: 500px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+input{
+    width: 94%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #efe8f0;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.btn{
+    color: white;
+    border-radius: 5px;
+    background-color: #5A67D8;
+    height: 41px;
+    border: none;
+    font-size: 18px;
+}
+
+.message{
+    margin-top: 10px;
+}
+
+
+
+
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 40px 0 40px 0;
+}
+
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-hero-image{
+    margin-right: 65px;
+}
+
+.overview-hero-image img{
+    width: 200px;
+}
+
+.overview-hero-text h2{
+    text-align: left;
+    padding:1px 7%;
+  }    
+
+  .overview-hero-text p{
+    padding:1px 7%;
+  }
+
+.learn-about h2{
+ font-size: 24px;
+ color: #48BB78;
+}
+
+.learn-about .container .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.testing-desciption{
+    color:white;
+}
+
+.cta{
+    justify-self: center;
+}
+.cta a{
+    color: white;
+    background-color: #48BB78;
+    text-decoration: none;
+    padding: 15px 40px;
+}
+.cta .btn{
+    border-radius: 5px;
+}
+
+
+.stories h2{
+    color:#5A67D8;
+}
+
+.stories a{ 
+    text-align: center;
+    padding:1%;
+    color:#5A67D8;
+}
+
+.card{
+    border: 1px solid #efe8f0;
+    border-radius: 5px;
+    margin: 0 23px 0 0;
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgb(180, 176, 176);
+  
+    
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.card h3{
+    color:#48BB78;
+    font-size:21px;
+}
+
+
+.testing{
+    background-color: #4A5568;
+    margin: 32px 0;
+    padding: 52px 0 72px 0;
+}
+
+.testing .container{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+
+.article-body h3 {
+   font-size: 18px;
+   margin-right: 175px;
+} 
+
+article{
+    display: flex;
+    align-items: center;
+    margin:32px;
+}
+article img{
+    border-radius: 50%;
+    height: 200px;
+    width:70%;
+    margin-right: 26px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+    padding: 45px 0 45px 0;
+
+}
+
+
+
+
+footer{ 
+    padding: 12px 0 12px 0;
+    background-color: #4A5568;
+    color:white;
+}
